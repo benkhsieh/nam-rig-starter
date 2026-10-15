@@ -1,0 +1,16 @@
+# Van Halen
+amp 1968-marshall-super-lead-12-000-series-drive-a2-72145
+amp marshall-1959hw-plexi-variac-hyper-accuracy-6220
+amp marshall-plexi-super-lead-1959-el34-40971
+cab uk-greenback-marshall-1960tv-4x12-m201-75087
+amp 1992-peavey-5150-block-letter-mesa-os-412-full-rig-58798
+amp evh-5150iii-ivory-full-pack-88689
+# Guns N' Roses / Slash
+amp marshall-1959-brbs-sir-36-slash-standard-6379
+amp marshall-jcm800-2203-modified-44209
+amp marshall-silver-jubilee-2555-34255
+cab marshall-4x12-v30-ir-2129
+# Roland JC-120
+amp roland-jc-120b-jazz-chorus-10912
+amp roland-jazz-chorus-127
+cab jc120-cab-impulses-1644

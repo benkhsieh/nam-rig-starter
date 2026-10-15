@@ -1,0 +1,5352 @@
+{
+  "name": "Pedal Starter Pack",
+  "nextInstanceId": 183,
+  "selectedPreset": 105,
+  "presets": [
+    {
+      "instanceId": 105,
+      "preset": {
+        "name": "King of Tone \u2192 Deluxe Reverb",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 104,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 101,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/ANALOGMAN KING OF TONE/RED OD 2.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/ANALOGMAN KING OF TONE/RED OD 2.nam\"}"
+            },
+            "title": "ANALOGMAN KING OF TONE",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 102,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 103,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -15
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Deluxe Reverb Tank/Deluxe Medium.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Deluxe Reverb Tank/Deluxe Medium.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 106,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 111,
+      "preset": {
+        "name": "Klon Centaur \u2192 '62 Bassman",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 110,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 106,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Klon Silver Centaur/Klon 555.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Klon Silver Centaur/Klon 555.nam\"}"
+            },
+            "title": "Klon Silver Centaur",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 107,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 355.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 355.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 108,
+            "uri": "http://two-play.com/plugins/toob-cab-ir",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": -40
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": 0
+              },
+              {
+                "key": "reverb_mix",
+                "value": 2
+              },
+              {
+                "key": "reverb_mix2",
+                "value": -3
+              },
+              {
+                "key": "reverb_mix3",
+                "value": -3
+              },
+              {
+                "key": "time",
+                "value": 1.5
+              }
+            ],
+            "pluginName": "TooB Cab IR",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav"
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile2": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile3": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-cab-ir#impulseFile": "{\"otype_\": \"Path\",\"value\": \"CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 109,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -15
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 112,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 116,
+      "preset": {
+        "name": "TS808 \u2192 '68 Plexi",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 115,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 112,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Ibanez TS808 (Japan Reissue 2003)/14-TS808_Hot_Lvl6_OD2_T2.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Ibanez TS808 (Japan Reissue 2003)/14-TS808_Hot_Lvl6_OD2_T2.nam\"}"
+            },
+            "title": "Ibanez TS808 (Japan Reissue 2003)",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 113,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 114,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 117,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 121,
+      "preset": {
+        "name": "Echoplex EP101 preamp \u2192 '68 Plexi",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 120,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 117,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Dunlop EP101 Echoplex Preamp/4. EP101 G5.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Dunlop EP101 Echoplex Preamp/4. EP101 G5.nam\"}"
+            },
+            "title": "Dunlop EP101 Echoplex Preamp",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 118,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "https://dusk-audio.github.io/plugins/tape-echo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "mode",
+                "value": 6
+              },
+              {
+                "key": "repeat_rate",
+                "value": 0.504974365
+              },
+              {
+                "key": "intensity",
+                "value": 0.390014648
+              },
+              {
+                "key": "echo_volume",
+                "value": 0.285003662
+              },
+              {
+                "key": "reverb_volume",
+                "value": 0
+              },
+              {
+                "key": "bass",
+                "value": 0.0100097703
+              },
+              {
+                "key": "treble",
+                "value": 0.0200195294
+              },
+              {
+                "key": "input_volume",
+                "value": 0.510009766
+              },
+              {
+                "key": "wow_flutter",
+                "value": 0
+              },
+              {
+                "key": "dry_level",
+                "value": 1
+              },
+              {
+                "key": "tempo_sync",
+                "value": 0
+              },
+              {
+                "key": "sync_division",
+                "value": 2
+              },
+              {
+                "key": "tape_age",
+                "value": 0.5
+              },
+              {
+                "key": "lv2_enabled",
+                "value": 1
+              },
+              {
+                "key": "output_volume",
+                "value": 0.471270651
+              },
+              {
+                "key": "echo_pan",
+                "value": 0.5
+              },
+              {
+                "key": "reverb_pan",
+                "value": 0.5
+              },
+              {
+                "key": "input_send",
+                "value": 1
+              },
+              {
+                "key": "mix",
+                "value": 0.2
+              },
+              {
+                "key": "echo_rate_note",
+                "value": 8
+              },
+              {
+                "key": "noise",
+                "value": 0
+              },
+              {
+                "key": "hum_frequency",
+                "value": 0
+              }
+            ],
+            "pluginName": "Tape Echo 2",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "Tape Echo 2 (Classic Tape Echo)",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 119
+          }
+        ],
+        "nextInstanceId": 122,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 127,
+      "preset": {
+        "name": "Boss CE-1 preamp + chorus \u2192 Deluxe",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 126,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 122,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/BOSS CE 1 Chorus Ensemble 1970's (Dry) Pre Amp/BOSS CE1 Low Input Gain 12 O'clock.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/BOSS CE 1 Chorus Ensemble 1970's (Dry) Pre Amp/BOSS CE1 Low Input Gain 12 O'clock.nam\"}"
+            },
+            "title": "BOSS CE 1 Chorus Ensemble 1970's (Dry) Pre Amp",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 123,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 124,
+            "uri": "http://two-play.com/plugins/toob-chorus",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "depth",
+                "value": 0.55
+              },
+              {
+                "key": "dryWet",
+                "value": 1.0
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "outr",
+                "value": 0
+              },
+              {
+                "key": "rate",
+                "value": 0.3
+              }
+            ],
+            "pluginName": "TooB CE-2 Chorus",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 125,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 128,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 133,
+      "preset": {
+        "name": "Boss DS-1 \u2192 JC-120",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 132,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "http://two-play.com/plugins/toob-noise-gate",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "threshold",
+                "value": -60.0
+              },
+              {
+                "key": "hysteresis",
+                "value": -6.0
+              },
+              {
+                "key": "reduction",
+                "value": -60.0
+              },
+              {
+                "key": "attack",
+                "value": 1.0
+              },
+              {
+                "key": "hold",
+                "value": 100.0
+              },
+              {
+                "key": "release",
+                "value": 330.0
+              }
+            ],
+            "pluginName": "TooB Noise Gate",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 128
+          },
+          {
+            "instanceId": 129,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Boss DS-1 Distortion/Boss DS-1 T5_V10_G5.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Boss DS-1 Distortion/Boss DS-1 T5_V10_G5.nam\"}"
+            },
+            "title": "Boss DS-1 Distortion",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 130,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 131,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 134,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 140,
+      "preset": {
+        "name": "ProCo RAT (vintage) \u2192 '62 Bassman",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 139,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "http://two-play.com/plugins/toob-noise-gate",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "threshold",
+                "value": -60.0
+              },
+              {
+                "key": "hysteresis",
+                "value": -6.0
+              },
+              {
+                "key": "reduction",
+                "value": -60.0
+              },
+              {
+                "key": "attack",
+                "value": 1.0
+              },
+              {
+                "key": "hold",
+                "value": 100.0
+              },
+              {
+                "key": "release",
+                "value": 330.0
+              }
+            ],
+            "pluginName": "TooB Noise Gate",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 134
+          },
+          {
+            "instanceId": 135,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/ProCo Rat Vintage Reissue/ProCo Rat Vintage Reissue SS 02 D2F2V6.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/ProCo Rat Vintage Reissue/ProCo Rat Vintage Reissue SS 02 D2F2V6.nam\"}"
+            },
+            "title": "ProCo Rat Vintage Reissue",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 136,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 355.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 355.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 137,
+            "uri": "http://two-play.com/plugins/toob-cab-ir",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": -40
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": 0
+              },
+              {
+                "key": "reverb_mix",
+                "value": 2
+              },
+              {
+                "key": "reverb_mix2",
+                "value": -3
+              },
+              {
+                "key": "reverb_mix3",
+                "value": -3
+              },
+              {
+                "key": "time",
+                "value": 1.5
+              }
+            ],
+            "pluginName": "TooB Cab IR",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav"
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile2": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile3": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-cab-ir#impulseFile": "{\"otype_\": \"Path\",\"value\": \"CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 138,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -18
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 141,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 146,
+      "preset": {
+        "name": "ProCo RAT 2 \u2192 JCM800",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 145,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "http://two-play.com/plugins/toob-noise-gate",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "threshold",
+                "value": -60.0
+              },
+              {
+                "key": "hysteresis",
+                "value": -6.0
+              },
+              {
+                "key": "reduction",
+                "value": -60.0
+              },
+              {
+                "key": "attack",
+                "value": 1.0
+              },
+              {
+                "key": "hold",
+                "value": 100.0
+              },
+              {
+                "key": "release",
+                "value": 330.0
+              }
+            ],
+            "pluginName": "TooB Noise Gate",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 141
+          },
+          {
+            "instanceId": 142,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Pro Co RAT 2/ST_RAT_DIST-1100_FILTER-1300.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Pro Co RAT 2/ST_RAT_DIST-1100_FILTER-1300.nam\"}"
+            },
+            "title": "Pro Co RAT 2",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 143,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Marshall JCM800 2203 Modified/[AMP] JCM800-2203-MODIFIED-LO Edge of Breakup - SM58.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Marshall JCM800 2203 Modified/[AMP] JCM800-2203-MODIFIED-LO Edge of Breakup - SM58.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 144,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 147,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 152,
+      "preset": {
+        "name": "Archer OD \u2192 AC15",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 151,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 147,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/J. Rockett Audio Designs Archer OD/5. J. Rockett Archer Gain 5 Output 5 Treble 5.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/J. Rockett Audio Designs Archer OD/5. J. Rockett Archer Gain 5 Output 5 Treble 5.nam\"}"
+            },
+            "title": "J. Rockett Audio Designs Archer OD",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 148,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Edge of Breakup Normal.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Edge of Breakup Normal.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 149,
+            "uri": "http://two-play.com/plugins/toob-cab-ir",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": -40
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": 0
+              },
+              {
+                "key": "reverb_mix",
+                "value": 2
+              },
+              {
+                "key": "reverb_mix2",
+                "value": -3
+              },
+              {
+                "key": "reverb_mix3",
+                "value": -3
+              },
+              {
+                "key": "time",
+                "value": 1.5
+              }
+            ],
+            "pluginName": "TooB Cab IR",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "CabIR/T3K Starter Pack/'64 Vox AC30 Blue Alnicos 2x12 - XR/TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav"
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile2": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile3": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-cab-ir#impulseFile": "{\"otype_\": \"Path\",\"value\": \"CabIR/T3K Starter Pack/'64 Vox AC30 Blue Alnicos 2x12 - XR/TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 150,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -18
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 153,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 158,
+      "preset": {
+        "name": "EP Booster \u2192 AC30",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 157,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 153,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Xotic EP Booster Pack/GP EP Booster 50 Vintage.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Xotic EP Booster Pack/GP EP Booster 50 Vintage.nam\"}"
+            },
+            "title": "Xotic EP Booster Pack",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 154,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/'02 Vox AC30-6 Top Boost/AC30-6 TB Brl 2.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/'02 Vox AC30-6 Top Boost/AC30-6 TB Brl 2.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "https://dusk-audio.github.io/plugins/tape-echo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "mode",
+                "value": 6
+              },
+              {
+                "key": "repeat_rate",
+                "value": 0.504974365
+              },
+              {
+                "key": "intensity",
+                "value": 0.390014648
+              },
+              {
+                "key": "echo_volume",
+                "value": 0.285003662
+              },
+              {
+                "key": "reverb_volume",
+                "value": 0
+              },
+              {
+                "key": "bass",
+                "value": 0.0100097703
+              },
+              {
+                "key": "treble",
+                "value": 0.0200195294
+              },
+              {
+                "key": "input_volume",
+                "value": 0.510009766
+              },
+              {
+                "key": "wow_flutter",
+                "value": 0
+              },
+              {
+                "key": "dry_level",
+                "value": 1
+              },
+              {
+                "key": "tempo_sync",
+                "value": 0
+              },
+              {
+                "key": "sync_division",
+                "value": 2
+              },
+              {
+                "key": "tape_age",
+                "value": 0.5
+              },
+              {
+                "key": "lv2_enabled",
+                "value": 1
+              },
+              {
+                "key": "output_volume",
+                "value": 0.471270651
+              },
+              {
+                "key": "echo_pan",
+                "value": 0.5
+              },
+              {
+                "key": "reverb_pan",
+                "value": 0.5
+              },
+              {
+                "key": "input_send",
+                "value": 1
+              },
+              {
+                "key": "mix",
+                "value": 0.15
+              },
+              {
+                "key": "echo_rate_note",
+                "value": 8
+              },
+              {
+                "key": "noise",
+                "value": 0
+              },
+              {
+                "key": "hum_frequency",
+                "value": 0
+              }
+            ],
+            "pluginName": "Tape Echo 2",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "Tape Echo 2 (Classic Tape Echo)",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 155
+          },
+          {
+            "instanceId": 156,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 159,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 164,
+      "preset": {
+        "name": "JHS Bonsai (808) \u2192 Orange clean",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 163,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 159,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/JHS Bonsai Pack (9 Tube Screamers)/Boost-808.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/JHS Bonsai Pack (9 Tube Screamers)/Boost-808.nam\"}"
+            },
+            "title": "JHS Bonsai Pack (9 Tube Screamers)",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 160,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Orange Rockerverb MK3 v2 (Canov+Arnold)/Orange Rockerverb MK3 - Clean - Canov+Arnold.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Orange Rockerverb MK3 v2 (Canov+Arnold)/Orange Rockerverb MK3 - Clean - Canov+Arnold.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 161,
+            "uri": "http://two-play.com/plugins/toob-cab-ir",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": -40
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": 0
+              },
+              {
+                "key": "reverb_mix",
+                "value": 2
+              },
+              {
+                "key": "reverb_mix2",
+                "value": -3
+              },
+              {
+                "key": "reverb_mix3",
+                "value": -3
+              },
+              {
+                "key": "time",
+                "value": 1.5
+              }
+            ],
+            "pluginName": "TooB Cab IR",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "CabIR/T3K Starter Pack/Orange 2x12 V30/Orange 2x12 V30 SM57 A.wav"
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile2": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile3": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-cab-ir#impulseFile": "{\"otype_\": \"Path\",\"value\": \"CabIR/T3K Starter Pack/Orange 2x12 V30/Orange 2x12 V30 SM57 A.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 162,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 165,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 170,
+      "preset": {
+        "name": "Green Russian Big Muff \u2192 Two-Rock",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 169,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "uri": "http://two-play.com/plugins/toob-noise-gate",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "threshold",
+                "value": -60.0
+              },
+              {
+                "key": "hysteresis",
+                "value": -6.0
+              },
+              {
+                "key": "reduction",
+                "value": -60.0
+              },
+              {
+                "key": "attack",
+                "value": 1.0
+              },
+              {
+                "key": "hold",
+                "value": 100.0
+              },
+              {
+                "key": "release",
+                "value": 330.0
+              }
+            ],
+            "pluginName": "TooB Noise Gate",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1,
+            "instanceId": 165
+          },
+          {
+            "instanceId": 166,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Electro Harmonix - Green Russian Big Muff Pi/GreenRussian-08 5-5.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Electro Harmonix - Green Russian Big Muff Pi/GreenRussian-08 5-5.nam\"}"
+            },
+            "title": "Electro Harmonix - Green Russian Big Muff Pi",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 167,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)/All 5s Traditional A1 Conversion.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)/All 5s Traditional A1 Conversion.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 168,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 171,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 175,
+      "preset": {
+        "name": "Fuzz Factory (experimental) \u2192 JC-120",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 174,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 171,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/ZVex Fuzz Factory Vexter (experimental)/Fuzz Factory V-4 G-6 C-8 D-5 S-5.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/ZVex Fuzz Factory Vexter (experimental)/Fuzz Factory V-4 G-6 C-8 D-5 S-5.nam\"}"
+            },
+            "title": "ZVex Fuzz Factory Vexter",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 172,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 173,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 176,
+        "snapshots": []
+      }
+    },
+    {
+      "instanceId": 181,
+      "preset": {
+        "name": "Plasma (experimental) \u2192 AC15 clean",
+        "input_volume_db": 0,
+        "output_volume_db": 0,
+        "items": [
+          {
+            "instanceId": 180,
+            "uri": "http://two-play.com/plugins/toob-tuner",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "MUTE",
+                "value": 0
+              },
+              {
+                "key": "REFFREQ",
+                "value": 440
+              },
+              {
+                "key": "THRESHOLD",
+                "value": -60
+              }
+            ],
+            "pluginName": "TooB Tuner",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              false,
+              {}
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {},
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 176,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Pedals/Gamechanger Audio Plasma Pedal (experimental)/PlasmaPedal_Voltage_12oclk.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Pedals/Gamechanger Audio Plasma Pedal (experimental)/PlasmaPedal_Voltage_12oclk.nam\"}"
+            },
+            "title": "Gamechanger Audio Plasma Pedal",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 177,
+            "uri": "http://two-play.com/plugins/toob-nam",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bass",
+                "value": 5
+              },
+              {
+                "key": "buffer",
+                "value": 0
+              },
+              {
+                "key": "calibration",
+                "value": 0
+              },
+              {
+                "key": "gate",
+                "value": -80
+              },
+              {
+                "key": "gateOut",
+                "value": 0
+              },
+              {
+                "key": "inputCalibrationMode",
+                "value": 0
+              },
+              {
+                "key": "inputGain",
+                "value": 0
+              },
+              {
+                "key": "inputGainOut",
+                "value": -35
+              },
+              {
+                "key": "mid",
+                "value": 5
+              },
+              {
+                "key": "modelSize",
+                "value": 0
+              },
+              {
+                "key": "outputCalibration",
+                "value": 0
+              },
+              {
+                "key": "outputGain",
+                "value": 0
+              },
+              {
+                "key": "toneStack",
+                "value": 3
+              },
+              {
+                "key": "treble",
+                "value": 5
+              },
+              {
+                "key": "version",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Neural Amp Modeler",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-nam#modelFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Crystal Clean Normal.nam"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-nam#modelFile": "{\"otype_\": \"Path\",\"value\": \"NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Crystal Clean Normal.nam\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "default",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 178,
+            "uri": "http://two-play.com/plugins/toob-cab-ir",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": -40
+              },
+              {
+                "key": "in",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "out",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": 0
+              },
+              {
+                "key": "reverb_mix",
+                "value": 2
+              },
+              {
+                "key": "reverb_mix2",
+                "value": -3
+              },
+              {
+                "key": "reverb_mix3",
+                "value": -3
+              },
+              {
+                "key": "time",
+                "value": 1.5
+              }
+            ],
+            "pluginName": "TooB Cab IR",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "CabIR/T3K Starter Pack/'64 Vox AC30 Blue Alnicos 2x12 - XR/TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav"
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile2": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                },
+                "http://two-play.com/plugins/toob-cab-ir#impulseFile3": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#String",
+                  "value": ""
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-cab-ir#impulseFile": "{\"otype_\": \"Path\",\"value\": \"CabIR/T3K Starter Pack/'64 Vox AC30 Blue Alnicos 2x12 - XR/TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          },
+          {
+            "instanceId": 179,
+            "uri": "http://two-play.com/plugins/toob-convolution-reverb-stereo",
+            "isEnabled": true,
+            "controlValues": [
+              {
+                "key": "bypass",
+                "value": 1
+              },
+              {
+                "key": "control",
+                "value": 0
+              },
+              {
+                "key": "decay",
+                "value": 0
+              },
+              {
+                "key": "direct_mix",
+                "value": 0
+              },
+              {
+                "key": "inL",
+                "value": 0
+              },
+              {
+                "key": "inR",
+                "value": 0
+              },
+              {
+                "key": "loading_state",
+                "value": 0
+              },
+              {
+                "key": "notify",
+                "value": 0
+              },
+              {
+                "key": "outL",
+                "value": 0
+              },
+              {
+                "key": "outR",
+                "value": 0
+              },
+              {
+                "key": "pan",
+                "value": 0
+              },
+              {
+                "key": "predelay",
+                "value": -1
+              },
+              {
+                "key": "predelay_new",
+                "value": 1
+              },
+              {
+                "key": "reverb_mix",
+                "value": -20
+              },
+              {
+                "key": "start",
+                "value": 1
+              },
+              {
+                "key": "stretch",
+                "value": 1
+              },
+              {
+                "key": "tails",
+                "value": 1
+              },
+              {
+                "key": "time",
+                "value": 30
+              },
+              {
+                "key": "width",
+                "value": 1
+              }
+            ],
+            "pluginName": "TooB Convolution Reverb (Stereo)",
+            "midiBindings": [],
+            "midiChannelBinding": null,
+            "stateUpdateCount": 0,
+            "lv2State": [
+              true,
+              {
+                "http://two-play.com/plugins/toob-impulse#impulseFile": {
+                  "flags": 3,
+                  "atomType": "http://lv2plug.in/ns/ext/atom#Path",
+                  "value": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav"
+                }
+              }
+            ],
+            "lilvPresetUri": "",
+            "pathProperties": {
+              "http://two-play.com/plugins/toob-impulse#impulseFile": "{\"otype_\": \"Path\",\"value\": \"ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav\"}"
+            },
+            "title": "",
+            "useModUi": false,
+            "iconColor": "",
+            "sideChainInputId": -1
+          }
+        ],
+        "nextInstanceId": 182,
+        "snapshots": []
+      }
+    }
+  ]
+}

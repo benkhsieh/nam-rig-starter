@@ -1,0 +1,378 @@
+{
+  "bank": "Rig Starter Pack",
+  "presets": [
+    {
+      "name": "Setzer — '62 Blonde Bassman + Space Echo",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Roland Space Echo RE-201/RE-201 Instrument Level 5.nam",
+          "enabled": true
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Fender Blonde Bassman Edge BAL DI/Fender BL Bassman Edge FAT DI.nam",
+          "enabled": true
+        },
+        {
+          "type": "cab_ir",
+          "file": "CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav"
+        },
+        {
+          "effect": "tape echo",
+          "plugin": "Tape Echo 2",
+          "enabled": true,
+          "settings": {
+            "preset": "Rockabilly Guitar"
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav",
+          "mix_db": -18
+        }
+      ]
+    },
+    {
+      "name": "'62 Fender Bassman",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 755.nam",
+          "enabled": true
+        },
+        {
+          "type": "cab_ir",
+          "file": "CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav"
+        },
+        {
+          "effect": "trem",
+          "plugin": "TooB Tremolo (Mono)",
+          "enabled": false,
+          "settings": {
+            "rate": 5.0,
+            "depth": 0.5
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav",
+          "mix_db": -15
+        }
+      ]
+    },
+    {
+      "name": "Fender Deluxe Reverb",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam",
+          "enabled": true
+        },
+        {
+          "effect": "gxtrem",
+          "plugin": "GxTremolo",
+          "enabled": false,
+          "settings": {
+            "dry_wet": 100.0,
+            "depth": 0.5,
+            "freq": 5.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Deluxe Reverb Tank/Deluxe Medium.wav",
+          "mix_db": -12
+        }
+      ]
+    },
+    {
+      "name": "Fender Vibrolux Reverb",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Fender Custom Vibrolux Reverb Amp/Fender Custom Vibrolux 90s, Vol 2.7, Treb 5.5, Bass 6.2 e906.nam",
+          "enabled": true
+        },
+        {
+          "effect": "gxtrem",
+          "plugin": "GxTremolo",
+          "enabled": true,
+          "settings": {
+            "dry_wet": 100.0,
+            "depth": 0.45,
+            "freq": 4.5
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav",
+          "mix_db": -12
+        }
+      ]
+    },
+    {
+      "name": "Vox AC30 Top Boost",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/'02 Vox AC30-6 Top Boost/AC30-6 TB Brl 3.nam",
+          "enabled": true
+        },
+        {
+          "effect": "trem",
+          "plugin": "TooB Tremolo (Mono)",
+          "enabled": false,
+          "settings": {
+            "rate": 6.0,
+            "depth": 0.5
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -15
+        }
+      ]
+    },
+    {
+      "name": "Orange Rockerverb",
+      "chain": [
+        {
+          "effect": "gate",
+          "plugin": "TooB Noise Gate",
+          "enabled": true,
+          "settings": {
+            "threshold": -60.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Orange Rockerverb MK3 v2 (Canov+Arnold)/Orange Rockerverb MK3 - Crunch G5 - Canov+Arnold.nam",
+          "enabled": true
+        },
+        {
+          "type": "cab_ir",
+          "file": "CabIR/T3K Starter Pack/Orange 2x12 V30/Orange 2x12 V30 SM57 A.wav"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav",
+          "mix_db": -18
+        }
+      ]
+    },
+    {
+      "name": "Dumble-style ODS (Two-Rock)",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)/BMD G5 T5M5B5 Vol7 P5 BF A1 Conversion.nam",
+          "enabled": true
+        },
+        {
+          "effect": "delay",
+          "plugin": "TooB Delay",
+          "enabled": true,
+          "settings": {
+            "delay": 380.0,
+            "level": 18.0,
+            "feedback": 25.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -15
+        }
+      ]
+    },
+    {
+      "name": "Mesa Dual Rectifier",
+      "chain": [
+        {
+          "effect": "gate",
+          "plugin": "TooB Noise Gate",
+          "enabled": true,
+          "settings": {
+            "threshold": -55.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Mesa Dual Rectifier MW Red Modern - Mesa 4x12 - Full Rig/FR MBDR MW Red Mdn - 3 - 4FB UR SM57a.nam",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Van Halen — '68 Plexi Brown",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam",
+          "enabled": true
+        },
+        {
+          "effect": "phaser",
+          "plugin": "TooB Phaser",
+          "enabled": false,
+          "settings": {
+            "rate": 0.45,
+            "dryWet": 1.0
+          },
+          "type": "effect"
+        },
+        {
+          "effect": "tape echo",
+          "plugin": "Tape Echo 2",
+          "enabled": true,
+          "settings": {
+            "preset": "Classic Tape Echo",
+            "mix": 0.2
+          },
+          "type": "effect"
+        }
+      ]
+    },
+    {
+      "name": "Van Halen — Eruption (Variac Plexi)",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Pedals/Dunlop EP101 Echoplex Preamp/4. EP101 G5.nam",
+          "enabled": true
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Marshall 1959HW Plexi Variac [Hyper Accuracy]/SLAMMIN_MARSHALL_1959HW_170V_DIMED_10_S.nam",
+          "enabled": true
+        },
+        {
+          "type": "cab_ir",
+          "file": "CabIR/T3K Starter Pack/UK Greenback - Marshall 1960TV 4x12 M201/M25 UL 1960TV 4x12 M201 1.50in 0.0in SA73.wav"
+        },
+        {
+          "effect": "phaser",
+          "plugin": "TooB Phaser",
+          "enabled": true,
+          "settings": {
+            "rate": 0.3,
+            "dryWet": 1.0
+          },
+          "type": "effect"
+        },
+        {
+          "effect": "tape echo",
+          "plugin": "Tape Echo 2",
+          "enabled": true,
+          "settings": {
+            "preset": "Classic Tape Echo",
+            "mix": 0.2
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -22
+        }
+      ]
+    },
+    {
+      "name": "Van Halen — 5150",
+      "chain": [
+        {
+          "effect": "gate",
+          "plugin": "TooB Noise Gate",
+          "enabled": true,
+          "settings": {
+            "threshold": -55.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig/1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig (@vivahatex).nam",
+          "enabled": true
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -20
+        }
+      ]
+    },
+    {
+      "name": "Slash — Appetite #36",
+      "chain": [
+        {
+          "effect": "wah",
+          "plugin": "Gxgcb_95",
+          "enabled": false,
+          "settings": {},
+          "type": "effect"
+        },
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Marshall 1959 BRBS SIR #36 Slash [Standard]/SLAMMIN_PLEXI_BRBS_SIR_#36_LG_MV3_SLASH_S.nam",
+          "enabled": true
+        },
+        {
+          "type": "cab_ir",
+          "file": "CabIR/T3K Starter Pack/UK Greenback - Marshall 1960TV 4x12 M201/M25 UL 1960TV 4x12 M201 1.50in 0.0in SA73.wav"
+        },
+        {
+          "effect": "delay",
+          "plugin": "TooB Delay",
+          "enabled": true,
+          "settings": {
+            "delay": 420.0,
+            "level": 15.0,
+            "feedback": 20.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -20
+        }
+      ]
+    },
+    {
+      "name": "Roland JC-120 Jazz Chorus",
+      "chain": [
+        {
+          "type": "nam",
+          "file": "NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam",
+          "enabled": true
+        },
+        {
+          "effect": "chorus",
+          "plugin": "TooB CE-2 Chorus",
+          "enabled": true,
+          "settings": {
+            "rate": 0.35,
+            "depth": 0.5,
+            "dryWet": 1.0
+          },
+          "type": "effect"
+        },
+        {
+          "type": "reverb_ir",
+          "file": "ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav",
+          "mix_db": -20
+        }
+      ]
+    }
+  ]
+}

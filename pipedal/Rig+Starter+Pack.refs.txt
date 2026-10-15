@@ -1,0 +1,22 @@
+CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav
+CabIR/T3K Starter Pack/Orange 2x12 V30/Orange 2x12 V30 SM57 A.wav
+CabIR/T3K Starter Pack/UK Greenback - Marshall 1960TV 4x12 M201/M25 UL 1960TV 4x12 M201 1.50in 0.0in SA73.wav
+NeuralAmpModels/T3K Pedals/Dunlop EP101 Echoplex Preamp/4. EP101 G5.nam
+NeuralAmpModels/T3K Starter Pack/'02 Vox AC30-6 Top Boost/AC30-6 TB Brl 3.nam
+NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 755.nam
+NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam
+NeuralAmpModels/T3K Starter Pack/1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig/1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig (@vivahatex).nam
+NeuralAmpModels/T3K Starter Pack/Fender Blonde Bassman Edge BAL DI/Fender BL Bassman Edge FAT DI.nam
+NeuralAmpModels/T3K Starter Pack/Fender Custom Vibrolux Reverb Amp/Fender Custom Vibrolux 90s, Vol 2.7, Treb 5.5, Bass 6.2 e906.nam
+NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam
+NeuralAmpModels/T3K Starter Pack/Marshall 1959 BRBS SIR #36 Slash [Standard]/SLAMMIN_PLEXI_BRBS_SIR_#36_LG_MV3_SLASH_S.nam
+NeuralAmpModels/T3K Starter Pack/Marshall 1959HW Plexi Variac [Hyper Accuracy]/SLAMMIN_MARSHALL_1959HW_170V_DIMED_10_S.nam
+NeuralAmpModels/T3K Starter Pack/Mesa Dual Rectifier MW Red Modern - Mesa 4x12 - Full Rig/FR MBDR MW Red Mdn - 3 - 4FB UR SM57a.nam
+NeuralAmpModels/T3K Starter Pack/Orange Rockerverb MK3 v2 (Canov+Arnold)/Orange Rockerverb MK3 - Crunch G5 - Canov+Arnold.nam
+NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam
+NeuralAmpModels/T3K Starter Pack/Roland Space Echo RE-201/RE-201 Instrument Level 5.nam
+NeuralAmpModels/T3K Starter Pack/Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)/BMD G5 T5M5B5 Vol7 P5 BF A1 Conversion.nam
+ReverbImpulseFiles/T3K Starter Pack/Deluxe Reverb Tank/Deluxe Medium.wav
+ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav
+ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav
+ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav

@@ -1,0 +1,31 @@
+CabIR/T3K Starter Pack/'64 Vox AC30 Blue Alnicos 2x12 - XR/TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav
+CabIR/T3K Starter Pack/1966 Fender Bassman Cabinet Jensen C12NA Speaker/1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav
+CabIR/T3K Starter Pack/Orange 2x12 V30/Orange 2x12 V30 SM57 A.wav
+NeuralAmpModels/T3K Pedals/ANALOGMAN KING OF TONE/RED OD 2.nam
+NeuralAmpModels/T3K Pedals/BOSS CE 1 Chorus Ensemble 1970's (Dry) Pre Amp/BOSS CE1 Low Input Gain 12 O'clock.nam
+NeuralAmpModels/T3K Pedals/Boss DS-1 Distortion/Boss DS-1 T5_V10_G5.nam
+NeuralAmpModels/T3K Pedals/Dunlop EP101 Echoplex Preamp/4. EP101 G5.nam
+NeuralAmpModels/T3K Pedals/Electro Harmonix - Green Russian Big Muff Pi/GreenRussian-08 5-5.nam
+NeuralAmpModels/T3K Pedals/Gamechanger Audio Plasma Pedal (experimental)/PlasmaPedal_Voltage_12oclk.nam
+NeuralAmpModels/T3K Pedals/Ibanez TS808 (Japan Reissue 2003)/14-TS808_Hot_Lvl6_OD2_T2.nam
+NeuralAmpModels/T3K Pedals/J. Rockett Audio Designs Archer OD/5. J. Rockett Archer Gain 5 Output 5 Treble 5.nam
+NeuralAmpModels/T3K Pedals/JHS Bonsai Pack (9 Tube Screamers)/Boost-808.nam
+NeuralAmpModels/T3K Pedals/Klon Silver Centaur/Klon 555.nam
+NeuralAmpModels/T3K Pedals/Pro Co RAT 2/ST_RAT_DIST-1100_FILTER-1300.nam
+NeuralAmpModels/T3K Pedals/ProCo Rat Vintage Reissue/ProCo Rat Vintage Reissue SS 02 D2F2V6.nam
+NeuralAmpModels/T3K Pedals/Xotic EP Booster Pack/GP EP Booster 50 Vintage.nam
+NeuralAmpModels/T3K Pedals/ZVex Fuzz Factory Vexter (experimental)/Fuzz Factory V-4 G-6 C-8 D-5 S-5.nam
+NeuralAmpModels/T3K Starter Pack/'02 Vox AC30-6 Top Boost/AC30-6 TB Brl 2.nam
+NeuralAmpModels/T3K Starter Pack/1962 Fender Bassman/62 Bassman 355.nam
+NeuralAmpModels/T3K Starter Pack/1968 Marshall Super Lead 12 000 Series Drive A2/MRSH SL68 I Drive BRI CAB.nam
+NeuralAmpModels/T3K Starter Pack/Fender Deluxe Reverb (A2)/Deluxe Reverb.nam
+NeuralAmpModels/T3K Starter Pack/Marshall JCM800 2203 Modified/[AMP] JCM800-2203-MODIFIED-LO Edge of Breakup - SM58.nam
+NeuralAmpModels/T3K Starter Pack/Orange Rockerverb MK3 v2 (Canov+Arnold)/Orange Rockerverb MK3 - Clean - Canov+Arnold.nam
+NeuralAmpModels/T3K Starter Pack/Roland JC 120B Jazz Chorus/Roland JC 120B Jazz Chorus- Bright Off, SM57.nam
+NeuralAmpModels/T3K Starter Pack/Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)/All 5s Traditional A1 Conversion.nam
+NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Crystal Clean Normal.nam
+NeuralAmpModels/T3K Starter Pack/Vox AC15/Vox AC15CH Edge of Breakup Normal.nam
+ReverbImpulseFiles/T3K Starter Pack/Deluxe Reverb Tank/Deluxe Medium.wav
+ReverbImpulseFiles/T3K Starter Pack/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 08_Tone 08.wav
+ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Hall_6_Medium_Hall.wav
+ReverbImpulseFiles/T3K Starter Pack/Lexicon MPX100/Plate_2_Medium_Plate.wav

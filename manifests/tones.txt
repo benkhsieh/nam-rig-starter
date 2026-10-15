@@ -1,0 +1,34 @@
+# kind slug   (amp = NAM model, cab = cabinet IR, rev = reverb IR)
+# Setzer rig
+amp fender-blonde-bassman-edge-bal-di-1795
+amp 1962-fender-bassman--88158
+amp roland-space-echo-re-201-85267
+cab orange-2x12-v30-29354
+cab 1966-fender-bassman-cabinet-jensen-c12na-speaker-56792
+rev fender-spring-reverb-tank-36034
+# Fenders
+amp sonicvent-62-blonde-bassman-pack-amp-head-64479
+amp eric-claptons-fender-bassman-5f6-a-84556
+cab fender-65-super-reverb-4x10-jensen-p10r-61705
+amp fender-deluxe-reverb-a2-65227
+amp fender-deluxe-reverb-1965-hyper-accuracy-6289
+cab 1966-deluxe-reverb-cabinet-jensen-p12q-5855
+rev deluxe-reverb-tank-spring-reverb-irs-4ab3c1b-92532
+amp fender-custom-vibrolux-reverb-amp-81032
+amp fender-super-reverb-1965-edge-of-breakup-a2-88775
+# Orange
+amp orange-rockerverb-mk3-v2-canovarnold-1844
+amp orange-ad30-w-custom-ir-2627
+# Vox
+amp vox-ac15-1080
+amp 02-vox-ac306-top-boost-70408
+cab -64-vox-ac30-blue-alnicos-2x12-xr-ir-pack-79866
+# Dumble style
+amp dumble-ods-102-ford-hyper-accuracy-30435
+amp two-rock-studio-signature-di-a1-conversion-ox-box-2x12-two-rock-cab-v2-5367
+# Mesa Dual Rectifier
+amp mesa-dual-rectifier-mw-red-modern-mesa-4x12-full-rig-69206
+amp mesa-90s-dual-rectifier-ri-red-modern-full-rig-87866
+cab celestion-vintage-30-2002-mesa-boogie-4x12-sm57-45023
+# Reverb
+rev lexicon-mpx100-35060

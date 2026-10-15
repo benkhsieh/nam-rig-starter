@@ -1,0 +1,1122 @@
+[
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Setzer — '62 Blonde Bassman + Space Echo",
+    "folder": "Setzer — '62 Blonde Bassman + Space Echo",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/duggy6bnbmd.nam",
+        "file": "RE-201 Instrument Level 5.nam",
+        "source": "Roland Space Echo RE-201",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/dbad1eb773c4d425_a2.nam",
+        "file": "Fender BL Bassman Edge FAT DI.nam",
+        "source": "Fender Blonde Bassman Edge BAL DI",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/caiczof1c39.wav",
+        "file": "1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav",
+        "source": "1966 Fender Bassman Cabinet Jensen C12NA Speaker",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "kind": "Tape echo",
+        "where": "ReaDelay",
+        "notes": "slapback: about 110 ms, a single repeat, darkened (lowpass ~3 kHz)"
+      },
+      {
+        "n": 5,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/b3clauw3m7b.wav",
+        "file": "Fender Reverb Tank_Dwell 08_Tone 08.wav",
+        "source": "Fender Spring Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -18 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "'62 Fender Bassman",
+    "folder": "'62 Fender Bassman",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/5eeikzmatdk.nam",
+        "file": "62 Bassman 755.nam",
+        "source": "1962 Fender Bassman",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/caiczof1c39.wav",
+        "file": "1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav",
+        "source": "1966 Fender Bassman Cabinet Jensen C12NA Speaker",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 3,
+        "enabled": false,
+        "kind": "Tremolo",
+        "where": "JS: Tremolo",
+        "notes": "rate 5.0 Hz, depth 50% (starts bypassed)"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/b3clauw3m7b.wav",
+        "file": "Fender Reverb Tank_Dwell 08_Tone 08.wav",
+        "source": "Fender Spring Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -15 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Fender Deluxe Reverb",
+    "folder": "Fender Deluxe Reverb",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/r92q9neg8v.nam",
+        "file": "Deluxe Reverb.nam",
+        "source": "Fender Deluxe Reverb (A2)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": false,
+        "kind": "Tremolo",
+        "where": "JS: Tremolo",
+        "notes": "rate 5.0 Hz, depth 50% (starts bypassed)"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/0i9uh0qzbux5.wav",
+        "file": "Deluxe Medium.wav",
+        "source": "Deluxe Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -12 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Fender Vibrolux Reverb",
+    "folder": "Fender Vibrolux Reverb",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/ssoqrsmi8uq.nam",
+        "file": "Fender Custom Vibrolux 90s, Vol 2.7, Treb 5.5, Bass 6.2 e906.nam",
+        "source": "Fender Custom Vibrolux Reverb Amp",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "kind": "Tremolo",
+        "where": "JS: Tremolo",
+        "notes": "rate 4.5 Hz, depth 45%"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/b3clauw3m7b.wav",
+        "file": "Fender Reverb Tank_Dwell 08_Tone 08.wav",
+        "source": "Fender Spring Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -12 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Vox AC30 Top Boost",
+    "folder": "Vox AC30 Top Boost",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/44mkboopkxv.nam",
+        "file": "AC30-6 TB Brl 3.nam",
+        "source": "'02 Vox AC30-6 Top Boost",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": false,
+        "kind": "Tremolo",
+        "where": "JS: Tremolo",
+        "notes": "rate 6.0 Hz, depth 50% (starts bypassed)"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -15 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Orange Rockerverb",
+    "folder": "Orange Rockerverb",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -60 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/5ab515b5aaa6b777_a2.nam",
+        "file": "Orange Rockerverb MK3 - Crunch G5 - Canov+Arnold.nam",
+        "source": "Orange Rockerverb MK3 v2 (Canov+Arnold)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/aukni67w9i9.wav",
+        "file": "Orange 2x12 V30 SM57 A.wav",
+        "source": "Orange 2x12 V30",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/7qy0hc4h0gr.wav",
+        "file": "Hall_6_Medium_Hall.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -18 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Dumble-style ODS (Two-Rock)",
+    "folder": "Dumble-style ODS (Two-Rock)",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/356315accd1a8da5_a2.nam",
+        "file": "BMD G5 T5M5B5 Vol7 P5 BF A1 Conversion.nam",
+        "source": "Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "kind": "Delay",
+        "where": "ReaDelay",
+        "notes": "380 ms, feedback 25%, wet low (about -15 dB)"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -15 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Mesa Dual Rectifier",
+    "folder": "Mesa Dual Rectifier",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -55 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/7hju5tehl4q_a2.nam",
+        "file": "FR MBDR MW Red Mdn - 3 - 4FB UR SM57a.nam",
+        "source": "Mesa Dual Rectifier MW Red Modern - Mesa 4x12 - Full Rig",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Van Halen — '68 Plexi Brown",
+    "folder": "Van Halen — '68 Plexi Brown",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/f4rf2p7f52c.nam",
+        "file": "MRSH SL68 I Drive BRI CAB.nam",
+        "source": "1968 Marshall Super Lead 12 000 Series Drive A2",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": false,
+        "kind": "Phaser (MXR Phase 90)",
+        "where": "JS: Phaser",
+        "notes": "slow sweep, rate 0.45 Hz (starts bypassed)"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "kind": "Tape echo",
+        "where": "ReaDelay",
+        "notes": "about 300 ms, 2-3 repeats, darkened (lowpass ~3 kHz), mix 20%"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Van Halen — Eruption (Variac Plexi)",
+    "folder": "Van Halen — Eruption (Variac Plexi)",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/4jj7460oxqn.nam",
+        "file": "4. EP101 G5.nam",
+        "source": "Dunlop EP101 Echoplex Preamp",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/28d26fcd18d10dc9_a2.nam",
+        "file": "SLAMMIN_MARSHALL_1959HW_170V_DIMED_10_S.nam",
+        "source": "Marshall 1959HW Plexi Variac [Hyper Accuracy]",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/3xtqqwfildn.wav",
+        "file": "M25 UL 1960TV 4x12 M201 1.50in 0.0in SA73.wav",
+        "source": "UK Greenback - Marshall 1960TV 4x12 M201",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "kind": "Phaser (MXR Phase 90)",
+        "where": "JS: Phaser",
+        "notes": "slow sweep, rate 0.3 Hz"
+      },
+      {
+        "n": 5,
+        "enabled": true,
+        "kind": "Tape echo",
+        "where": "ReaDelay",
+        "notes": "about 300 ms, 2-3 repeats, darkened (lowpass ~3 kHz), mix 20%"
+      },
+      {
+        "n": 6,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -22 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Van Halen — 5150",
+    "folder": "Van Halen — 5150",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -55 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/c7jjtm9uq3e_a2.nam",
+        "file": "1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig (@vivahatex).nam",
+        "source": "1992 Peavey 5150 Block Letter - Mesa OS 412 Full Rig",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Slash — Appetite #36",
+    "folder": "Slash — Appetite #36",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": false,
+        "kind": "Wah",
+        "where": "JS: Wah (or a wah plugin you like)",
+        "notes": "rock it with an expression pedal or leave it parked (starts bypassed)"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/f483cfaa6de8e966_a2.nam",
+        "file": "SLAMMIN_PLEXI_BRBS_SIR_#36_LG_MV3_SLASH_S.nam",
+        "source": "Marshall 1959 BRBS SIR #36 Slash [Standard]",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/3xtqqwfildn.wav",
+        "file": "M25 UL 1960TV 4x12 M201 1.50in 0.0in SA73.wav",
+        "source": "UK Greenback - Marshall 1960TV 4x12 M201",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "kind": "Delay",
+        "where": "ReaDelay",
+        "notes": "420 ms, feedback 20%, wet low (about -15 dB)"
+      },
+      {
+        "n": 5,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Rig Starter Pack",
+    "name": "Roland JC-120 Jazz Chorus",
+    "folder": "Roland JC-120 Jazz Chorus",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/zyp1d0r45sf_a2.nam",
+        "file": "Roland JC 120B Jazz Chorus- Bright Off, SM57.nam",
+        "source": "Roland JC 120B Jazz Chorus",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "kind": "Chorus",
+        "where": "JS: Chorus",
+        "notes": "rate 0.35 Hz, depth 50%"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "King of Tone → Deluxe Reverb",
+    "folder": "King of Tone → Deluxe Reverb",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/5s0ipiw6s38.nam",
+        "file": "RED OD 2.nam",
+        "source": "ANALOGMAN KING OF TONE",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/r92q9neg8v.nam",
+        "file": "Deluxe Reverb.nam",
+        "source": "Fender Deluxe Reverb (A2)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/0i9uh0qzbux5.wav",
+        "file": "Deluxe Medium.wav",
+        "source": "Deluxe Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -15 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Klon Centaur → '62 Bassman",
+    "folder": "Klon Centaur → '62 Bassman",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/af34a4386da9fe44_a2.nam",
+        "file": "Klon 555.nam",
+        "source": "Klon Silver Centaur",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/kv37ylv51e.nam",
+        "file": "62 Bassman 355.nam",
+        "source": "1962 Fender Bassman",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/caiczof1c39.wav",
+        "file": "1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav",
+        "source": "1966 Fender Bassman Cabinet Jensen C12NA Speaker",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/b3clauw3m7b.wav",
+        "file": "Fender Reverb Tank_Dwell 08_Tone 08.wav",
+        "source": "Fender Spring Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -15 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "TS808 → '68 Plexi",
+    "folder": "TS808 → '68 Plexi",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/uwv3doom7wd_a2.nam",
+        "file": "14-TS808_Hot_Lvl6_OD2_T2.nam",
+        "source": "Ibanez TS808 (Japan Reissue 2003)",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/f4rf2p7f52c.nam",
+        "file": "MRSH SL68 I Drive BRI CAB.nam",
+        "source": "1968 Marshall Super Lead 12 000 Series Drive A2",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Echoplex EP101 preamp → '68 Plexi",
+    "folder": "Echoplex EP101 preamp → '68 Plexi",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/4jj7460oxqn.nam",
+        "file": "4. EP101 G5.nam",
+        "source": "Dunlop EP101 Echoplex Preamp",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/f4rf2p7f52c.nam",
+        "file": "MRSH SL68 I Drive BRI CAB.nam",
+        "source": "1968 Marshall Super Lead 12 000 Series Drive A2",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "kind": "Tape echo",
+        "where": "ReaDelay",
+        "notes": "about 300 ms, 2-3 repeats, darkened (lowpass ~3 kHz), mix 20%"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Boss CE-1 preamp + chorus → Deluxe",
+    "folder": "Boss CE-1 preamp + chorus → Deluxe",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/p1k9kcczpee_a2.nam",
+        "file": "BOSS CE1 Low Input Gain 12 O'clock.nam",
+        "source": "BOSS CE 1 Chorus Ensemble 1970's (Dry) Pre Amp",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/r92q9neg8v.nam",
+        "file": "Deluxe Reverb.nam",
+        "source": "Fender Deluxe Reverb (A2)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "kind": "Chorus",
+        "where": "JS: Chorus",
+        "notes": "rate 0.3 Hz, depth 55%"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Boss DS-1 → JC-120",
+    "folder": "Boss DS-1 → JC-120",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -60 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/gnpkd7m2fhq_a2.nam",
+        "file": "Boss DS-1 T5_V10_G5.nam",
+        "source": "Boss DS-1 Distortion",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/zyp1d0r45sf_a2.nam",
+        "file": "Roland JC 120B Jazz Chorus- Bright Off, SM57.nam",
+        "source": "Roland JC 120B Jazz Chorus",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "ProCo RAT (vintage) → '62 Bassman",
+    "folder": "ProCo RAT (vintage) → '62 Bassman",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -60 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/f1e2ab13333a3226_a2.nam",
+        "file": "ProCo Rat Vintage Reissue SS 02 D2F2V6.nam",
+        "source": "ProCo Rat Vintage Reissue",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/kv37ylv51e.nam",
+        "file": "62 Bassman 355.nam",
+        "source": "1962 Fender Bassman",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/caiczof1c39.wav",
+        "file": "1966 Bassman Cabinet with Jensen C12N - SM57 - Cap Edge.wav",
+        "source": "1966 Fender Bassman Cabinet Jensen C12NA Speaker",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 5,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/b3clauw3m7b.wav",
+        "file": "Fender Reverb Tank_Dwell 08_Tone 08.wav",
+        "source": "Fender Spring Reverb Tank",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -18 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "ProCo RAT 2 → JCM800",
+    "folder": "ProCo RAT 2 → JCM800",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -60 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/mzq9mng1xi_a2.nam",
+        "file": "ST_RAT_DIST-1100_FILTER-1300.nam",
+        "source": "Pro Co RAT 2",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/uzpxbamc6en.nam",
+        "file": "[AMP] JCM800-2203-MODIFIED-LO Edge of Breakup - SM58.nam",
+        "source": "Marshall JCM800 2203 Modified",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Archer OD → AC15",
+    "folder": "Archer OD → AC15",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/flj9owndqys.nam",
+        "file": "5. J. Rockett Archer Gain 5 Output 5 Treble 5.nam",
+        "source": "J. Rockett Audio Designs Archer OD",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/a3519fa8d74a132f_a2.nam",
+        "file": "Vox AC15CH Edge of Breakup Normal.nam",
+        "source": "Vox AC15",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/bvn028onpa7.wav",
+        "file": "TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav",
+        "source": "'64 Vox AC30 Blue Alnicos 2x12 - XR",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -18 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "EP Booster → AC30",
+    "folder": "EP Booster → AC30",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/1e8070af27437264_a2.nam",
+        "file": "GP EP Booster 50 Vintage.nam",
+        "source": "Xotic EP Booster Pack",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/2jcsjy5bw62.nam",
+        "file": "AC30-6 TB Brl 2.nam",
+        "source": "'02 Vox AC30-6 Top Boost",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "kind": "Tape echo",
+        "where": "ReaDelay",
+        "notes": "about 300 ms, 2-3 repeats, darkened (lowpass ~3 kHz), mix 15%"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "JHS Bonsai (808) → Orange clean",
+    "folder": "JHS Bonsai (808) → Orange clean",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/23b0d2b4ca9571aa_a2.nam",
+        "file": "Boost-808.nam",
+        "source": "JHS Bonsai Pack (9 Tube Screamers)",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/287627eb4e104d3d_a2.nam",
+        "file": "Orange Rockerverb MK3 - Clean - Canov+Arnold.nam",
+        "source": "Orange Rockerverb MK3 v2 (Canov+Arnold)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/aukni67w9i9.wav",
+        "file": "Orange 2x12 V30 SM57 A.wav",
+        "source": "Orange 2x12 V30",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/7qy0hc4h0gr.wav",
+        "file": "Hall_6_Medium_Hall.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Green Russian Big Muff → Two-Rock",
+    "folder": "Green Russian Big Muff → Two-Rock",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "kind": "Noise gate",
+        "where": "the Noise Gate knob in NAM (or ReaGate)",
+        "notes": "threshold -60 dB"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/r2u16d3wtqe_a2.nam",
+        "file": "GreenRussian-08 5-5.nam",
+        "source": "Electro Harmonix - Green Russian Big Muff Pi",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/3f2c9e3ea6d7e2dc_a2.nam",
+        "file": "All 5s Traditional A1 Conversion.nam",
+        "source": "Two Rock Studio Signature + OX Box 2x12 Two Rock Cab (V2)",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/7qy0hc4h0gr.wav",
+        "file": "Hall_6_Medium_Hall.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Fuzz Factory (experimental) → JC-120",
+    "folder": "Fuzz Factory (experimental) → JC-120",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/xfcr0b5s51f_a2.nam",
+        "file": "Fuzz Factory V-4 G-6 C-8 D-5 S-5.nam",
+        "source": "ZVex Fuzz Factory Vexter (experimental)",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/zyp1d0r45sf_a2.nam",
+        "file": "Roland JC 120B Jazz Chorus- Bright Off, SM57.nam",
+        "source": "Roland JC 120B Jazz Chorus",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; the capture already includes a cab, so leave NAM's IR slot off"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  },
+  {
+    "bank": "Pedal Starter Pack",
+    "name": "Plasma (experimental) → AC15 clean",
+    "folder": "Plasma (experimental) → AC15 clean",
+    "steps": [
+      {
+        "n": 1,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/8rjq9ss523p.nam",
+        "file": "PlasmaPedal_Voltage_12oclk.nam",
+        "source": "Gamechanger Audio Plasma Pedal (experimental)",
+        "kind": "Pedal",
+        "where": "NAM (a second instance, before the amp)",
+        "notes": "model file; IR slot off, EQ flat"
+      },
+      {
+        "n": 2,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/2efe4cfbcf92ea87_a2.nam",
+        "file": "Vox AC15CH Crystal Clean Normal.nam",
+        "source": "Vox AC15",
+        "kind": "Amp",
+        "where": "NAM (amp slot)",
+        "notes": "model file; load the cab IR from the next step into this NAM's IR slot"
+      },
+      {
+        "n": 3,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/bvn028onpa7.wav",
+        "file": "TF 64 AC30 2X12 BLUE - 57 R121 70-30.wav",
+        "source": "'64 Vox AC30 Blue Alnicos 2x12 - XR",
+        "kind": "Cab",
+        "where": "IR slot of the amp's NAM",
+        "notes": "cabinet impulse response"
+      },
+      {
+        "n": 4,
+        "enabled": true,
+        "url": "https://api.tone3000.com/storage/v1/object/public/models/jc3rx1fi3vc.wav",
+        "file": "Plate_2_Medium_Plate.wav",
+        "source": "Lexicon MPX100",
+        "kind": "Reverb",
+        "where": "ReaVerb (File: load this .wav)",
+        "notes": "reverb impulse response; wet about -20 dB, dry 0 dB"
+      }
+    ]
+  }
+]
