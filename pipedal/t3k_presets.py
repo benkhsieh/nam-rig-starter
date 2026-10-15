@@ -59,6 +59,8 @@ def base_item(uri):
 
 def item(key_or_uri, enabled=True, **controls):
     it = base_item(U.get(key_or_uri, key_or_uri))
+    if it["uri"] == NAM_URI:
+        controls.setdefault("modelSize", 1.0)  # "Quality": run the full tier of slimmable A2 models (0 = light tier)
     it["isEnabled"] = enabled
     key = next((k for k, u in U.items() if u == it["uri"]), it["pluginName"])
     RECIPE[it["instanceId"]] = {"effect": key, "plugin": it["pluginName"], "enabled": enabled, "settings": controls}
