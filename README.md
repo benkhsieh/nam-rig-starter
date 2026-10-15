@@ -84,6 +84,7 @@ In the NAM app:
 1. Click the **model** slot and pick a rig folder's **`Amp`** file.
 2. If that folder has a **`Cab`** file, load it into the **IR** slot. If there is no Cab file, the amp capture already includes a cabinet, so leave the IR slot off.
 3. Use the **Noise Gate** for high-gain rigs, the EQ for tone, and **Output** for volume.
+4. **Slim knob:** every model in this pack holds two versions, a light one and a full one with about 6x more detail. NAM starts at **Slim = 0**, which plays the *light* version. Turn Slim to **1** for the full version. Keep it there if it plays clean, and drop back to 0 if you get crackles.
 
 Good first picks:
 
@@ -124,7 +125,7 @@ FX run top to bottom in the order listed, the same order as the numbers. When a 
 
 | Problem | Fix |
 |---|---|
-| Crackles or pops | Raise the buffer to **256**. Plug in the charger and set **Settings → System → Power → Power mode → Best performance**. Close Chrome and Teams. If your NAM shows a **Slim** control, turn it up a little: A2 models can trade a little detail for much less CPU. |
+| Crackles or pops | Raise the buffer to **256**. Plug in the charger and set **Settings → System → Power → Power mode → Best performance**. Close Chrome and Teams. If you turned NAM's **Slim** knob up, turn it back to 0 (see the tip in step 6). |
 | No sound | Check the driver is **Focusrite USB ASIO**, the input is **1**, and the outputs are **1/2**. Turn up the Scarlett's monitor/headphone knob. In REAPER, the track must be armed with monitoring on. |
 | You hear the dry guitar too | Turn **Direct Monitor off** (step 2). |
 | "Sample rate couldn't be set" | Set 48 kHz in Focusrite Control first, then restart the app. |
