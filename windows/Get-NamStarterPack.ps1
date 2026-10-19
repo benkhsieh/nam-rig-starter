@@ -7,15 +7,21 @@
   <Destination>\Presets\<preset name>\, numbered in signal-chain order, with a Recipe.txt
   describing the chain. -Full also downloads the whole library (~1,250 files) into
   <Destination>\Library\ using the same folder layout PiPedal uses.
+  -ModDesktop also copies every downloaded model and IR into MOD Desktop's user-files folders
+  (NAM Models, Speaker Cabinets IRs, Reverb IRs), under "NAM Starter Pack\<tone>\".
 
 .EXAMPLE
   powershell -ExecutionPolicy Bypass -File .\windows\Get-NamStarterPack.ps1
 .EXAMPLE
   powershell -ExecutionPolicy Bypass -File .\windows\Get-NamStarterPack.ps1 -Full
+.EXAMPLE
+  powershell -ExecutionPolicy Bypass -File .\windows\Get-NamStarterPack.ps1 -ModDesktop
 #>
 param(
     [string]$Destination = (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'NAM Starter Pack'),
-    [switch]$Full
+    [switch]$Full,
+    [switch]$ModDesktop,
+    [string]$ModUserFiles = (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'MOD Desktop/user-files')
 )
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'   # Invoke-WebRequest is very slow with the progress bar on
@@ -26,6 +32,12 @@ $presets = Get-Content -Raw -Encoding UTF8 (Join-Path $repo 'presets/presets.jso
 $cache = Join-Path $Destination '.cache'
 [void][IO.Directory]::CreateDirectory($cache)
 $script:ok = 0; $script:skipped = 0; $script:failed = 0
+$modDirs = @{ Amp = 'NAM Models'; Pedal = 'NAM Models'; Cab = 'Speaker Cabinets IRs'; Reverb = 'Reverb IRs'; Rev = 'Reverb IRs' }
+
+# MOD Desktop lists files from its user-files folders (subfolders included), grouped here by tone.
+function Add-ToMod([string]$Kind, [string]$Tone, [string]$File, [string]$Url) {
+    if ($ModDesktop) { Get-File $Url (Join-Path $ModUserFiles "$($modDirs[$Kind])/NAM Starter Pack/$Tone/$File") }
+}
 
 function Get-File([string]$Url, [string]$Target) {
     if ((Test-Path -LiteralPath $Target) -and (Get-Item -LiteralPath $Target).Length -gt 0) { $script:skipped++; return }
@@ -54,8 +66,10 @@ foreach ($p in $presets) {
         if ($s.url) {
             $local = '{0} {1} - {2}' -f $s.n, $s.kind, $s.file
             Get-File $s.url (Join-Path $dir $local)
+            Add-ToMod $s.kind $s.source $s.file $s.url
             $recipe += '{0}. {1,-8} {2}' -f $s.n, $s.kind, $local
             $recipe += "           -> $($s.where); $($s.notes)"
+            $recipe += "           (tone folder: $($s.source))"
         } else {
             $recipe += '{0}. {1,-8} {2}: {3}' -f $s.n, $s.kind, $s.where, $s.notes
         }
@@ -72,6 +86,7 @@ if ($Full) {
         Get-Content -Encoding UTF8 $_.FullName | Where-Object { $_ } | ForEach-Object {
             $kind, $title, $name, $url = $_ -split "`t"
             Get-File $url (Join-Path $Destination "Library/$($dirs[$kind])/$title/$name")
+            Add-ToMod $kind $title $name $url
         }
     }
 }
@@ -79,4 +94,5 @@ if ($Full) {
 Write-Host ''
 Write-Host "downloaded=$($script:ok) already-there=$($script:skipped) failed=$($script:failed)"
 Write-Host "Presets are in: $(Join-Path $Destination 'Presets')"
+if ($ModDesktop) { Write-Host "MOD Desktop files are in: $ModUserFiles" }
 if ($script:failed -gt 0) { Write-Host 'Run the script again to retry the failed files.' }
